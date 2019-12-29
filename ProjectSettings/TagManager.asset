@@ -14,10 +14,10 @@ TagManager:
   - 
   - 
   - PostProcessing
-  - 
-  - 
-  - 
-  - 
+  - Player
+  - Walls
+  - Ground
+  - Ledge
   - 
   - 
   - 
