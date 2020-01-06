@@ -6,6 +6,6 @@ using UnityEngine;
 public struct PlayerInputData : IComponentData
 {
 
-    public Component inputSystem;
+    
 
 }
