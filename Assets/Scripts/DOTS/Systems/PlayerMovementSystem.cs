@@ -12,7 +12,7 @@ public class PlayerMovementSystem : JobComponentSystem
         Entities.ForEach((ref Translation trans, in PlayerMovementData data) =>
         {
 
-            //trans.Value;
+            
 
         }).Run();
 

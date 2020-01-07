@@ -8,5 +8,6 @@ public struct PlayerMovementData : IComponentData
 
     public float speed;
     public float jumpHeight;
+    public Vector3 direction;
 
 }
