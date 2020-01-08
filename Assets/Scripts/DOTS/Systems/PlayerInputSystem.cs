@@ -12,8 +12,8 @@ public class PlayerInputSystem : JobComponentSystem
         Entities.ForEach((ref PlayerMovementData moveData, in PlayerInputData data) =>
         {
 
-            moveData.direction.x = data.move.x;
-            moveData.direction.z = data.move.y;
+            //moveData.direction.x = data.move.x;
+            //moveData.direction.z = data.move.y;
 
         }).Run();
 
