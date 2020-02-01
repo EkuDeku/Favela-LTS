@@ -18,7 +18,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &4125413230264568543
 Transform:
   m_ObjectHideFlags: 0
@@ -261,6 +261,9 @@ MonoBehaviour:
   m_DeviceRegainedEvent:
     m_PersistentCalls:
       m_Calls: []
+  m_ControlsChangedEvent:
+    m_PersistentCalls:
+      m_Calls: []
   m_ActionEvents: []
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
@@ -339,6 +342,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 9171835159889181392}
     m_Modifications:
+    - target: {fileID: -8773223190229327738, guid: 99e1e7e745986af49aaca5b81f1b5ecb,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 842ae6eec950fc4468d239f878bba3fb, type: 2}
     - target: {fileID: -8720997766147596541, guid: 99e1e7e745986af49aaca5b81f1b5ecb,
         type: 3}
       propertyPath: m_Layer
